@@ -1,0 +1,2700 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali"
+     xml:base="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:tembangbali="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#AdalahFungsiDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#AdalahFungsiDari">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiFungsi"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraYadnya"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Fungsi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#AdalahJenisTembangDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#AdalahJenisTembangDari">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiJenisTembang"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarRare"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#JenisTembang"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#AdalahTermasukKidung -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#AdalahTermasukKidung">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiKidung"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TembangBali"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiAktivitas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiAktivitas">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MerupakanAktivitasDari"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TembangBali"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiBagianYadnya -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiBagianYadnya">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MerupakanBagianYadnya"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraYadnya"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TembangBali"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiFungsi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiFungsi">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Fungsi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraYadnya"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiJenisPupuh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiJenisPupuh">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MerupakanJenisPupuh"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDandang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDurma"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinada"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinanti"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMaskumambang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMijil"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPangkur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPucung"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSemarandana"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSinom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiJenisTembang -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiJenisTembang">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#JenisTembang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarRare"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiKidung -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiKidung">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TembangBali"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiLaras -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiLaras">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MerupakanLarasDari"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Gegendingan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Laras"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MerupakanAktivitasDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MerupakanAktivitasDari">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TembangBali"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MerupakanBagianDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MerupakanBagianDari">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TerdiriDari"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingJanger"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingRare"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingSanghyang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Gegendingan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MerupakanBagianYadnya -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MerupakanBagianYadnya">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TembangBali"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraYadnya"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MerupakanJenisPupuh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MerupakanJenisPupuh">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDandang"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDurma"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinada"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinanti"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMaskumambang"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMijil"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPangkur"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPucung"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSemarandana"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSinom"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MerupakanLarasDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MerupakanLarasDari">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Laras"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Gegendingan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TerdiriDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TerdiriDari">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Gegendingan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingJanger"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingRare"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingSanghyang"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiArti -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiArti"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiLirik -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiLirik"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiNama -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiNama"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiPesanMoral -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiPesanMoral"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiSuara -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MemilikiSuara">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TembangBali"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Fungsi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Fungsi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TembangBali"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Gegendingan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Gegendingan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarRare"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingJanger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingJanger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Gegendingan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingRare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingRare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Gegendingan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingSanghyang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingSanghyang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Gegendingan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Fungsi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#JenisTembang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#JenisTembang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TembangBali"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Laras -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Laras">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TembangBali"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDandang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDandang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDurma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDurma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinanti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinanti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMaskumambang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMaskumambang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMijil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMijil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPangkur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPangkur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPucung -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPucung">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSemarandana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSemarandana">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSinom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSinom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#JenisTembang"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#JenisTembang"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarRare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarRare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#JenisTembang"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TembangBali -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TembangBali"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraYadnya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraYadnya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Fungsi"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bala-Ugu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bala-Ugu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NyiramangLayon"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PitraYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Bala ugu dina melah, manuju tanggal sasih.
+Pan Brayut panamaya. Asisig adyus akramas.
+Sinalinan wastra petak. Mamusti madayang batis.
+Sampun puput maprayoga, tan swe ngemasin-mati.
+
+Ikang layon ginosongan, ne istri tuhu satya, de pamayun matingkah.
+Eteh eteh sang paratra. Toya hening pabresihan.
+Misi ganda burat-wangi. Lengise pudak sategal.
+Sumar ganda mrbuk arum.
+
+Pusuh menuhe uttama. Malem sampun macawisan.
+Tekening edon intaran. Bebek wangi lengis kapur.
+Monmon mirah windusara. Waja meka panca datu.
+Don tuwung sampun masembar. Sikapa kalawan taluh.
+
+Buku-buku panyosalasan. Pagamelane salaka.
+Kawangene panyelawean. Gegalenge satak-seket.
+Sampun puput pabersihan. Winiletang dening kasa.
+Tikeh halus wijil jawa. Lante maulat panyalin.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Bala-Ugu</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>balaugu</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain"/>
+        <tembangbali:MemilikiNama>Bermain</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#BhutaYadnya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#BhutaYadnya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraYadnya"/>
+        <tembangbali:MerupakanBagianYadnya rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#BhutaYadnya"/>
+        <tembangbali:MemilikiNama>Bhuta Yadnya</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#BibiAnu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#BibiAnu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPucung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TigaBulanan"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#ManusaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MerupakanJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPucung"/>
+        <tembangbali:MemilikiArti>Mengandung makna semua manusia di bumi, namun dilambangkan oleh seorang perempuan karena perempuan merupakan seseorang yang sangat mulia yang memiliki beberapa kelebihan.
+Kelebihan sekaligus sebagai kodratnya melahirkan anak, menyusui, menjadi ibu dan istri yang berperan penting dalam kehidupan.</tembangbali:MemilikiArti>
+        <tembangbali:MemilikiLirik>1. Bibi anu lamun payu
+Luas mandus
+Antenge tekekang
+Yatnain ngabe mesui
+Tiuk puntul
+Bawang anggo pesikepan
+
+2. Anak liyu
+Bencana dimarga agung
+Bajang ulu bukal
+Mangisep nyonyo ngulanting
+Mangetekul
+Mekrana tan pesu empehan
+
+3. Bibi anu 
+wenten pangguh jegeg bagus
+Dije pianak tityang 
+niki ade timun alit
+aduh ibu 
+niki boya pianak tityang
+
+4. Niki pusuh 
+Niki taler pianak taluh
+Niki batu bulitan
+Bajang colong ne neruwenin
+Aduh ratu
+Niki pianak tityang manusa
+
+5. Cening Ayu
+Ajak jumah metapa lacur
+Sayang meme bapa
+Madak ada swecan Widhi
+Nutug tuwuh
+Nyantos matungked bungbungan</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Bibi Anu</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>bibianu</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#CaiDurma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#CaiDurma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDurma"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDurma"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiArti>Kamu anak bapak yang paling gede,
+tumbuh dan berkembang dengan kasih sayang, 
+ditinggalkan ibu, baik baik di rumah ya nak, 
+bapak akan pergi mendalami makna kehidupan ke gunung dan hutan, 
+belajar berpasrah sampai ajal menjemput.</tembangbali:MemilikiArti>
+        <tembangbali:MemilikiLirik>Cai durma pianak bapa paling wayah, 
+tumbuhe keasih-asih, 
+ketinggalan biang, 
+jumah cening apang melah, 
+bapa luas nangun kerti, 
+kagunung alas idepang bapa mati</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Cai Durma</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiPesanMoral>Bersikap mandiri merupakan suatu sikap yang diperlukan manusia agar tidak selalu bergantung pada orang lain. Mandiri juga bisa berarti dapat menyelasaikan masalah atau permasalahn hidup melalui kemampuan sendiri.</tembangbali:MemilikiPesanMoral>
+        <tembangbali:MemilikiSuara>caidurma</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#CaiTarka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#CaiTarka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMaskumambang"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMaskumambang"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Slendro"/>
+        <tembangbali:MemilikiLirik>cai tarka
+kemu ke toko digati
+ne pipise abe
+beliyang meme abesik
+colok macap alibaba
+
+teked jumah
+coloke sing nyak ngendih
+isine belusang
+memene pedih mamunyi
+aduh beloge mapunya</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Cai Tarka</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>caitarka</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Cewana-Girisa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Cewana-Girisa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NedunangLayon"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PitraYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Ata sedengira mantuk sang suralaga ringayun.
+Tucapa aji wiratan. Karyasa nagisi weka.
+Pinahajongira laywan sang putra mala piniwa.
+Pada litu hajenganwam. Lwir kandarpa pina telu.
+
+Lalu laranira nasa sambat putranira pejah.
+Lakibi sira sumengkem ring putra luru kinusa.
+Ginamelira ginanti kang laywan lagi ginugah.
+Inutusira masabda kapwa ajara bibi aji.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Cewana-Girisa</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>cewanagirisa</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DadongDauh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DadongDauh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMijil"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMijil"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiArti>Nenek tua memelihara ayam putih
+Sudah bertelur katanya
+Kurang lebih lima belas jumlahnya
+Tapi sayang ada anak yang melihat
+Anak kecil-kecil, anak kecil-kecil
+Yang sangat usil.</tembangbali:MemilikiArti>
+        <tembangbali:MemilikiLirik>dadong dauh, 
+ngelah siap putih, 
+sube metaluh reko, 
+minab ade limolas taluhne, 
+nanging lacur ade nak nepukin, 
+anak cerik-cerik….anak cerik-cerik, 
+bes keliwat usit ipun</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Dadong Dauh</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>dadongdauh</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DagingSarwaTutureSari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DagingSarwaTutureSari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDandang"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraKeagamaan"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDandang"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Daging sarwa tuture sari manuduhang
+Ngawe dana punia
+Nggen nulung sarwa muripe
+Kéto kadharmaning idup
+Muatang mayasa kerti
+Wireh tong dadi kudiang
+Raga pacang mantuk
+Mawali ka niskala keto dewa
+Da suwud mekardi becik
+Satoning dadi manusa.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Daging Sarwa Tuture Sari</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Demung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Demung">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Mepandes"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#ManusaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Tuhu ndatan pasiring
+Yadin sasoring akasa
+Riguna widya wicaksana
+Byakta saraswati surasmi
+Hyang giri wadu
+Anupama nurageng rat
+Sang apatra dyah tantri
+Tumuli prapta mareking ibu</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Demung</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DemungRangkeSari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DemungRangkeSari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MaDwiJati"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RsiYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Bagian 1:
+Kunang sangarepi moksa jagadhita
+Tan hentya ring kabrahmacarya
+Nimitaning rahayu
+Pradnya sira prakerthi
+Kadyangganing angsa
+Wruh umilihi sangu
+Asing suklani tineda
+Amoga ya wredheng hurip
+Tanalyanika dharma sastra
+Langgeng hurip ya swara nyuluh
+
+Bagian 2:
+Carmini sarira ragati mahardhika
+Widya tan awidya
+Sadiana ngruci tutur
+Tanggap ring pradnya prekawi
+Suguna ri kawekasan
+Ring kawongani jugul
+Prayascita pataka
+Sidha klesaning runtik
+Nirdosa nir wighna
+Mukteng urip rahayu dirghayuh</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Demung Rangkesari</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Demung_Sawit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Demung_Sawit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Mapetik"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#ManusaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>1.Tuhwatut bhiseka nrepati
+Sri eswarya dala
+Dala kusuma patrānglung
+Eswarya raja laksmi
+Sang kula amenuhi rajya
+Kwehning bala diwarga
+Mukya sira kriyan apatih
+Sang niti bandeswarya patra rum
+
+2.Nityasa angulih-ulih
+Amrih sutrepting nagara
+Lan sang paradi mantrya
+Tuhu widagda anglus bhumi
+Susandi tinut rasaning aji
+Kutara manawa
+Mwang sastra sarodhreti
+Matangyan tan hanang bhaya kewuh
+
+3.Mangamyat kalangen ikang nagara tisobha
+awiyar
+Indra bhawana nurun kweh tang pakwan atitip
+pada kabhinawa
+Dening sarwe ndah linuhung liwar sukan nikang
+wong anam tami kapti
+Arumpukan sari samangrangsuk bhusana neka
+marum</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Demung Sawit</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>demungsawit</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DewaYadnya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DewaYadnya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraYadnya"/>
+        <tembangbali:MerupakanBagianYadnya rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DewaYadnya"/>
+        <tembangbali:MemilikiNama>Dewa Yadnya</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DonDapdap -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DonDapdap">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingJanger"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarRare"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Slendro"/>
+        <tembangbali:MerupakanBagianDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingJanger"/>
+        <tembangbali:MemilikiArti>don (daun); dap-dap (nama pohon: umumnya dipakai tempat menaruh sajen berupa empat tiang dan dikenal dengan turus lumbung); gading (kuning, seperti warna bambu kuning/ tiying gading).</tembangbali:MemilikiArti>
+        <tembangbali:MemilikiLirik>don dap dape don dap dape lum lum gading
+don dap dape don dap dape lum lum gading
+panak, panak biu panak biu di kedaton
+titiang nembe titian nembe tuun megending
+titiang nembe titian nembe tuun megending
+anak-anak liu
+anak liu rawuh menonton
+ngiring mangkin ngiring mangking
+masuka rena masuka rena
+ampura ugi para sementon sareng sami</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Don Dap Dap</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>dondapdap</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#EdaNgadenAwakBisa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#EdaNgadenAwakBisa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinada"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinada"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Slendro"/>
+        <tembangbali:MemilikiArti>Jangan mengira dirimu sudah pintar
+Biarlah orang lain yang menilai diri kita/menyebutnya demikian
+Ibarat sedang menyapu
+Sampah akan muncul terus menerus
+Kalau sampah habis, masih banyak debu
+Biarpun kamu sudah pintar, masih banyak yang harus dipelajari.</tembangbali:MemilikiArti>
+        <tembangbali:MemilikiLirik>eda ngaden awak bisa
+depang anake ngadanin
+geginane buka nyampat
+anak sai tumbuh luhu
+ilang lulu ebuk katah
+yadin ririh
+enu liu peplajahan</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Eda Ngaden Awak Bisa</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiPesanMoral>Tidak boleh arogan/sombong ketika tahu sesuatu.</tembangbali:MemilikiPesanMoral>
+        <tembangbali:MemilikiSuara>edangadenawakbisa</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#EgarManah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#EgarManah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pamendak"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DewaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Bagian 1:
+Egar manah ira ngesti ayu,
+Ngesti batarane,
+Kalih ida sang hyang widhi,
+Madak ica ida nerus,
+Betel kangin betel kawuh,
+Mangulayang ikawelas arsa,
+Angesti hyang brata sadhu,
+Ngesti ida hyang batara,
+Nunas sarining amreta.
+
+Bagian 2:
+Kawula ngaturang canang harum
+Sarwe ke sekare
+Manca warna sarwa wangi
+Ambun nyane ngalub-alub
+Ngawe egar hyang hayu
+Kalih Ida Hyang Batara
+Pade kenak pade kenyung
+Hyang Dedare Hyang Dedari
+Nyari aturan I kawula
+
+Kawula ngaturang canang harum
+Ring Ida Batara
+Kawula manuhur bakti
+Manyungsung Ida Iratu
+Iratu sasuhunan agung
+Iratu Hyang panembahan
+Apan tumus ican iratu
+Nyari aturan kawula
+Ring cokor Ida Batara
+
+Canang wangi mrik sumambur
+Angerembun ka sekare
+Angrembun jebab kasturi
+Ngawe kalangen Ida Iratu
+Wangine mangalub-alub
+Rame mangebekin pura
+Ring kadewatan manyusup
+Para dewa para hyang kabeh
+Geger saking puran ira
+
+Hyang Dedara Hyang Dedari hayu
+Warna mangalelyep
+Lumlum gading hayu lewih
+Pada geger wulangun
+Kasusup sarining harum
+Geger ring kadaton ira
+Para Dewa lwir para Hyang hayu
+Oneng ring kawula tapa
+Ngesti Ida Hyang Batara
+
+Purnama tilem mabrata nerus
+Mabresihin raga
+Wastra petak kampuh putih
+Masabuk petak halus
+Masekar sempol manerus
+Sampun rateng canang ira
+Itapa jati manglawut
+Ngesti lunga keparyangan
+Manyeba Ida Batara</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Egar Manah</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>egarmanah</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingJanger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingJanger">
+        <tembangbali:TerdiriDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingJanger"/>
+        <tembangbali:MemilikiNama>Gending Janger</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingRare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingRare">
+        <tembangbali:TerdiriDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingRare"/>
+        <tembangbali:MemilikiNama>Gending Rare</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingSanghyang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingSanghyang">
+        <tembangbali:TerdiriDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingSanghyang"/>
+        <tembangbali:MemilikiNama>Gending Sanghyang</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:AdalahFungsiDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:MemilikiNama>Hiburan</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#ICetrung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#ICetrung">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSinom"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSinom"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Slendro"/>
+        <tembangbali:MemilikiLirik>Ring carike sane linggah,
+Pantun nyane sampun kuning,
+I Cetrung ngelah pianak,
+Nanging kantun alit – alit,
+Rauh sang mederbe carik,
+Sane benjang jagi durus,
+Kaanyi pantun punika,
+I Cetrung sedih ngurimik
+Ratu agung,
+Kudiang jani baan medaya.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>I Cetrung</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiPesanMoral>Keikhlasan yaitu; Sebagai orang tua I Cetrung tak kuasa berbuat apa-apa. Ia harus pergi dan harus iklas apa pun yang terjadi terhadap anak-anaknya.</tembangbali:MemilikiPesanMoral>
+        <tembangbali:MemilikiSuara>icetrung</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#IndikManyuwang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#IndikManyuwang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSinom"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pawiwahan"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#ManusaYadnya"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSinom"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>1. Indik manyuwang kurenan
+Liu ngabe unduk rimbit
+Reh sanget ngawe sengkala
+Yan iwang bahan nindakin
+Munah turunan padidi
+kadat utamane pangguh
+Mingkin ane madan gamya
+Ne ngawe letuhing gumi
+Sang prabu
+Yogya ida manyisipang
+
+2. Anak ngaba sakit nglahlah
+Sakit ila minakadi
+Salwir sakite rahat
+Ne pacang keweh nambanin
+Ne keto nyandang kelidin
+Apang da ngembahang racun
+Turunane dadi rusak
+Kawitane pacang sedih
+Ngadu sungsut
+Pada nemu kasangsaran
+
+3. Lontar cumbwana sesana
+Pepesang to ngewacenin
+Apang seken apang tatas
+Ring tingkahe ngambil rabi
+Mangda tan pati purugin
+Reh agung halane pangguh
+Keweh malih mengawitang
+Ngumbah pelihe nyumunin
+Nyelsel pangguh
+Melah yatnain matingkah
+
+4. Sarana byakala punika
+Mangda wikan mengartinin
+Suksmaning grehastasrama
+Jagra eling darma laki
+Luwir undara matali
+Janten nika pacang sungsut
+Sajroning karya grehasta
+Makweh ngwangunang prihati
+Mangda kukuh
+Melah yatnain matingkah
+
+5. Malih pategen-tegenen
+Abot ringan ne rasanin
+Priyuk sareng tutup ika
+Atukar alaki rabi
+Nanging inangen dihati
+Nora pasah teges ipun
+Tridatu warna ring sampat
+Tri pramana tunggal dadi
+Sabda bayu
+Miwah idepe melampah
+
+6. Sewos medagang-dagangan
+Guna kayane mesari
+Trikara metampak dara
+Rahayu sida kepanggih
+Ngamijilang putra-putri
+Suguna laksana ipun
+Pitindih ring kadang mitra
+Anresangsya welas asih
+Krama liyu
+Ngemanggehang sastra gama</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Indik Manyuwang</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Indra-Wangsa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Indra-Wangsa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MamargaKaSetra"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PitraYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Indra-Wangsa</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiLirik>Mamwit narendratmaja ring tapowana.
+Manganjali ryagraning indra parwata.
+Tan wis mrti sangka nikang hayun teka.
+Swabhawa sang sajana rakwa mangkana.
+
+Mangkat dateng toliha rum wulat nira.
+Sinambaying camara sangkaring geger.
+Panawanging mrak panangisnikungalas.
+Erang tininggal masaput-saput hima.
+
+Lunghang lengit lampahira ngawe tana.
+Lawan Sang Erawana bajranaryama.
+Tan warnanen decanikang katungkulan.
+Apan leyep muksa sahinganing mulat.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiSuara>indrawangsa</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#JenggotUban -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#JenggotUban">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingRare"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarRare"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Slendro"/>
+        <tembangbali:MerupakanBagianDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingRare"/>
+        <tembangbali:MemilikiArti>Menggambarkan ketidaktahuan seorang anak kecil tentang rambut putih yang tumbuh di sekitar wajah seorang kakek. Hingga dia bertanya “Apa kakek memang seperti itu sejak dulu?&quot;.</tembangbali:MemilikiArti>
+        <tembangbali:MemilikiLirik>Kaki-kaki tanguda mebok
+Di batan cunguhē kēn di jagutē ?
+neked kapipinē bet misi bok
+Buwin putih buka kapasē
+
+Apa kaki kemulan keto
+Mabulu uling dimara lekadē ?
+Tusing cening, kaki majēnggot reko,
+Kaki tua mara ya mentik</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Jenggot Uban</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>jenggotuban</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Jerum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Jerum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NgundangBhuta"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#BhutaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>1. Tangeh anamun turida
+Salimur tan kasalimur
+Prakerti abayeng dangu
+Tumuwuh ta andadi wong
+Rasa tan kadi ageman
+Marmanira misreng kidung
+Tan anuting pupuh basa
+Pinahewa de sang wiku.
+
+2. Ndan kapracita ring gita
+Kundangdeya aran ipun
+Taruna ring banjar kidul
+Kang kumawi catur mangko
+Kocapan I Kundangdeya
+Angulanjar gawen ipun
+Kasih-asih ingeman-eman
+Kamban kara dening ibu
+
+3. Kidung pangundang ring bhuta
+Basa lumbrah pupuh jerum
+Bhuta asih widhi asung
+Caru pasajine reko
+Genep saha upacara
+Manut warna lawan ungguh
+Sekul iwak pada bina
+Olah-olahan sadulur.
+
+4. Pangideran panguripan
+Kangin panca putih mulus
+Kaja siya bara mungguh
+Kawuh kuning pitu enggon
+Kelod selem urip patpat
+Manca warna tengah brumbun
+Akutus panguripanya
+Babhutane manut ungguh.
+
+5. Kangin ring angin magenah
+Kaja ring api amungguh
+Ring tanahe kawuh
+Kelod ring toya manongos
+Ring embange bhuta tengah
+Malih sane bilang bucu
+Anut urip lawan warna
+Tongos babhutane karedung
+
+6. Yan sira sampun wus nadah
+Gati prasama mawantun
+Ngungsi unggwani sowang mantuk
+Aja mamighna yadnya
+Asih kumasih satuwuk
+Ngawe degdeg jagat raya
+Jana pada manggih ayu.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Jerum</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>jerum</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#JuruPencar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#JuruPencar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingRare"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarRare"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MerupakanBagianDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingRare"/>
+        <tembangbali:MemilikiArti>Menggambarkan tentang nelayan yang mengajak teman-temannya untuk mencari ikan atau menjala ikan.</tembangbali:MemilikiArti>
+        <tembangbali:MemilikiLirik>Juru pencar juru pencar
+Mai jalan mencar ngejuk ebe
+Be gede gede
+Be gede gede
+Di sawana ajaka liu</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Juru Pencar</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>jurupencar</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#KawitanWargasari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#KawitanWargasari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PendahuluanSembahyang"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DewaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Purwakaning angripta rumning wana ukir.
+Kahadang labuh. Kartika penedenging sari.
+Angayon tangguli ketur. Angringring jangga mure.
+
+Sukania harja winangun winarne sari.
+Rumrumning puspa priyaka, ingoling tangi.
+Sampun ing riris sumar. Umungguing srengganing rejeng</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Kawitan Wargasari</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>kawitanwargasari</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kawitan_Tantri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kawitan_Tantri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Mepandes"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#ManusaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>1. Wuwusen bhupati
+Ring patali nagantun
+Subhaga wirya siniwi
+Kajrihin sang para ratu
+Salwaning jambu warsadi
+Prasama atur kembang tawon
+
+2. Tuhu tan keneng apuy
+Pratama sang prabhu
+Kesyaning ruktyeng sadnyari
+Sawyakti yan ari wisnu
+Nityangde ulaping ari
+Sridara patra sang katong</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Kawitan Tantri</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>kawitantantri</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung">
+        <tembangbali:MemilikiKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiNama>Kidung</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#KsamaHatur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#KsamaHatur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSemarandana"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pawiwahan"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#ManusaYadnya"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSemarandana"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>1. Om ksama hatur mami
+Ring paduka sanghyang siwa
+Mwang bhatari dewi uma
+Rumaga purusa predana
+Moga paduka bhatara
+Asung nugraha weh hayu
+Luput saking duka baya
+
+2. Apan paduka bhatari
+Rumaksa hala ayuning wang
+Utpeti stiti pralina
+Kahanannya ring tri loka
+Mekadi ring pawiwahan
+Moga sida sidaning don
+De sang lumaku grahasta
+
+3. Om ratu hyang gana pati
+Gana dipa winayaka
+Sarwa wirya winasa
+Balik sarwa karya sida
+Lugraha paduka bhatara
+Ring yadnyaning muda punggung
+Moga sida labda karya
+
+4. Ala ayuning prawerti
+Mawetu sangking tri kaya
+Masedana brata yoga
+Wenang tan kawenang ta ya
+Bhatara tunggwa sarana
+Sarwa mala karma gempung
+Kapwa balik dadi sukla
+
+5. Menawita kirang luwih
+Ksamakena ratu tityang
+Damuh paduka bhatara
+Pangkah mangaturang gita
+Sarananing tityang muda
+Sang bakta maharep hayu
+Mogi sida mangun treptya</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Ksama Hatur</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#KukusArum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#KukusArum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Ngadegang"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DewaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Kukus arum wus maleuk, 
+nuwur ida Batarane, 
+mangda ida gelis turun, 
+saking wetan sarwa putih, 
+saking kidul rangdi ngendih, 
+sarwa pita saking kulwan, 
+saking kaler rawuh, 
+sarwa kresna ngrawit.
+
+Ring bale pahyasan pupul, 
+majajar tata linggihe, 
+canang panglinggihan katur, 
+kawula ngaturang bakti, 
+ngaturin jaga malasti, 
+nganyudang sakancan mala, 
+amertha karuruh, 
+ring tengahing jladi.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Kukus Arum</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MaDwiJati -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MaDwiJati">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MaDwiJati"/>
+        <tembangbali:MemilikiNama>MaDwiJati</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Makiyis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Makiyis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Makiyis"/>
+        <tembangbali:MemilikiNama>Makiyis</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Malaspas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Malaspas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Malaspas"/>
+        <tembangbali:MemilikiNama>Malaspas</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Malat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Malat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Mapetik"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#ManusaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>1. Asawur sembah sira panji
+Sama lungguhing patani
+Danta nawun mahisa
+Mangkana kinen angambil gunting
+
+2. Tumuli agunting tana sari
+Sampun tinata dera
+Sang hulun mangke abagus
+Lingira sri nara nata
+
+3. Mangkana sang ingtoh pati
+Sira jinira winongwang
+Sadina mangun gamelan
+Sajero tan hana dhuka
+
+4. Yan angucap tan anlarang
+Sri nara nata anglampu
+Awuwus tan singgih olihnya
+Nane tatan patanding
+
+5. Yan anuta rupane len guna
+Sedeng tahana pati
+De rangga tumuli lan suweng
+Mangkin awuwus pekik</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Malat</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>malat</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MamargaKaSetra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MamargaKaSetra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MamargaKaSetra"/>
+        <tembangbali:MemilikiNama>Mamarga Ka Setra</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#ManusaYadnya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#ManusaYadnya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraYadnya"/>
+        <tembangbali:MerupakanBagianYadnya rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#ManusaYadnya"/>
+        <tembangbali:MemilikiNama>Manusa Yadnya</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Mapetik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Mapetik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Mapetik"/>
+        <tembangbali:MemilikiNama>Mapetik</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MatabuhEnak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MatabuhEnak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MatabuhEnak"/>
+        <tembangbali:MemilikiNama>Matabuh Enak</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MegantungBanBokAkatih -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MegantungBanBokAkatih">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSemarandana"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSemarandana"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiArti>Ibaratkan tergantung dengan sehelai rambut, 
+Jiwa sang Ibu di saat,
+melahirkan kita, 
+Bagaikan menjunjung gentong,
+Beralaskan batu besar, 
+Kalau salah bergerak batu itu akan bergerak,
+Sudah pasti akan terjatuh, Hancur lebur tak dapat disatukan</tembangbali:MemilikiArti>
+        <tembangbali:MemilikiLirik>Magantung ban bok akatih
+angkihane yan umpama
+kadi manyuhun gedahe
+matatakan batu lumbang
+yana pelih magunjitan
+tan urungan pacang labuh
+dekdek buyar tan tuptupang</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>MegantungBanBokAkatih</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiPesanMoral>Begitu berat beban sang ibu di saat melahirkan kita, maka kita tidak boleh berani dan menentang nasihat dan petuah Guru Rupaka.</tembangbali:MemilikiPesanMoral>
+        <tembangbali:MemilikiSuara>megantungbanbokakatih</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MenghaturkanSajen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MenghaturkanSajen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MenghaturkanSajen"/>
+        <tembangbali:MemilikiNama>Menghaturkan Sajen</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MeongMeong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MeongMeong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingRare"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarRare"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MerupakanBagianDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingRare"/>
+        <tembangbali:MemilikiArti>Menggambarkan tentang seekor kucing agar menangkap tikus yang suka membuat kerusuhan.</tembangbali:MemilikiArti>
+        <tembangbali:MemilikiLirik>Meong meong alih je bikule
+Bikul gede gede
+Buin mokoh mokoh
+Kereng pesan ngerusuhin</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Meong-Meong</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>meongmeong</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Mepandes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Mepandes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Mepandes"/>
+        <tembangbali:MemilikiNama>Mepandes</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NedunangLayon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NedunangLayon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NedunangLayon"/>
+        <tembangbali:MemilikiNama>Nedunang Layon</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Ngadegang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Ngadegang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Ngadegang"/>
+        <tembangbali:MemilikiNama>Ngadegang</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NgantebPujawali -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NgantebPujawali">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NgantebPujawali"/>
+        <tembangbali:MemilikiNama>Nganteb Pujawali</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Nganyut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Nganyut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Nganyut"/>
+        <tembangbali:MemilikiNama>Nganyut</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Ngareka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Ngareka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Ngareka"/>
+        <tembangbali:MemilikiNama>Ngareka</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NgesengSawa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NgesengSawa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NgesengSawa"/>
+        <tembangbali:MemilikiNama>Ngeseng Sawa</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NgundangBhuta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NgundangBhuta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NgundangBhuta"/>
+        <tembangbali:MemilikiNama>Ngundang Bhuta</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NgungsiKantorSekolahan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NgungsiKantorSekolahan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPangkur"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPangkur"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Ngungsi kantor sekolahan,
+Jek macelup sang kalih ngungkab topi,
+Nunas lugra ring tuan guru,
+Tuan guru meanggukan,
+Tur ngandika uli dije cai bagus,
+Nyen cai makadua?
+Angob bapa mangiwasin.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Ngungsi Kantor Sekolahan</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>ngungsikantorsekolahan</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NunasTirta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NunasTirta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NunasTirta"/>
+        <tembangbali:MemilikiNama>Nunas Tirta</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NyiramangLayon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NyiramangLayon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NyiramangLayon"/>
+        <tembangbali:MemilikiNama>Nyiramang Layon</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PadewasanSaneBecik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PadewasanSaneBecik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pupuh"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSemarandana"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RsiBojana"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RsiYadnya"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSemarandana"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Bagian 1:
+Padewasan sane becik
+Kala medana punia
+Pengawit suryane ngalerang
+Ne mwasta daksinayana
+Miwah kalaning ngelodang
+Pengawit surya puniku
+Ne mwasta utara yana
+
+Bagian 2:
+Sada sitimuka malih
+Surya bulane kepangan
+Manut sara samuscaya
+Dewasa ne mahotama
+Dewasa medana punia
+Yan sida antuk manuwut
+Banget luwih pikolihnya
+
+Bagian 3:
+Patutnya masih ingenin
+Kalaning maweh pedana
+Duwaning tan ja sabarang
+Sang patut weweh pedana
+Yan iwang antuk niwakang
+Mingkin ring sang tan sadhu
+Pedanane tan paguna</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Padewasan Sane Becik</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Palugangsa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Palugangsa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MaDwiJati"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RsiYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Tuhu sira sang huwus kretha yasa
+Angalahaken kasaktining indria
+Angawaseng tanu
+Tan kebandeng rajah tamah
+Anging guna satwa ya werdya
+Nuhuhaken sadhu budhi
+Asemi tang welas asih
+Sarwa lara nora kantun
+Tan keraketan weci
+Tan kakarsana hyuning dadi
+Yang de prabanikang jnana wibuh</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Palugangsa</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PamarganIdaSangHayu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PamarganIdaSangHayu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Makiyis"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DewaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Pamargan ida sang hayu
+Jenar ika lampahe
+Pamargine mangkab halus
+Dinuluran banyu mili
+Kumedep kedape ring langit
+Ngalompah ratna
+Galang endih murub
+Sundarin ratih
+
+Sampun liwat tangai dadu
+Katon genah amretane
+Maring taman genah ipun
+Danawa yatna mangemit
+Tetabuhan angrengih
+Gending curing asawuran
+Sinanam ring gunung
+Sadu warnane asri
+
+Tumedun ida sanga ahayu
+Maring tengah amretane
+Manggapsari naga santun
+Tumungkul asemu tangis
+Kagyat danawa ninghali
+Ayune angayang-ayang
+Luwir ratih tumurun
+Sakeng kendran prapti</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>PamarganIdaSangHayu</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pamendak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pamendak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pamendak"/>
+        <tembangbali:MemilikiNama>Pamendak</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PangastawaneKaLuhur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PangastawaneKaLuhur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NgantebPujawali"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DewaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Pangastawane ka luhur, 
+kukus arum panuntune, 
+upakara jangkep sampun daksina lan canang suci, 
+maduluran wargasari, 
+saking manahe lascarya, 
+sradha jroning kahyun, 
+mahyang makasami.
+
+Jro mangku ngarepin kukus, 
+maseha saha geritane, 
+lwir bramara ngisep santun, 
+mangku istri &apos;ne mangabih, 
+wargasari ngayih-anyih,
+tabuh gonge lelambatan,
+sekadi kadaut, baktine ring Widhi.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Pangastawa Ka Luhur</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pawiwahan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pawiwahan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pawiwahan"/>
+        <tembangbali:MemilikiNama>Pawiwahan</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Laras"/>
+        <tembangbali:MerupakanLarasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiNama>Pelog</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PendahuluanSembahyang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PendahuluanSembahyang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PendahuluanSembahyang"/>
+        <tembangbali:MemilikiNama>Pendahuluan Sembahyang</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PitraYadnya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PitraYadnya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraYadnya"/>
+        <tembangbali:MerupakanBagianYadnya rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PitraYadnya"/>
+        <tembangbali:MemilikiNama>Pitra Yadnya</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDandang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDandang">
+        <tembangbali:MerupakanJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDandang"/>
+        <tembangbali:MemilikiNama>Pupuh Dandang</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDurma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDurma">
+        <tembangbali:MerupakanJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhDurma"/>
+        <tembangbali:MemilikiNama>Pupuh Durma</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinada">
+        <tembangbali:MerupakanJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinada"/>
+        <tembangbali:MemilikiNama>Pupuh Ginada</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinanti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinanti">
+        <tembangbali:MerupakanJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinanti"/>
+        <tembangbali:MemilikiNama>Pupuh Ginanti</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMaskumambang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMaskumambang">
+        <tembangbali:MerupakanJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMaskumambang"/>
+        <tembangbali:MemilikiNama>Pupuh Maskumambang</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMijil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMijil">
+        <tembangbali:MerupakanJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMijil"/>
+        <tembangbali:MemilikiNama>Pupuh Mijil</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPangkur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPangkur">
+        <tembangbali:MerupakanJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPangkur"/>
+        <tembangbali:MemilikiNama>Pupuh Pangkur</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPucung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPucung">
+        <tembangbali:MerupakanJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPucung"/>
+        <tembangbali:MemilikiNama>Pupuh Pucung</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSemarandana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSemarandana">
+        <tembangbali:MerupakanJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSemarandana"/>
+        <tembangbali:MemilikiNama>Pupuh Sinom</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSinom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSinom">
+        <tembangbali:MerupakanJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSinom"/>
+        <tembangbali:MemilikiNama>Pupuh Sinom</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PutriCeningAyu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PutriCeningAyu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingRare"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarRare"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Slendro"/>
+        <tembangbali:MerupakanBagianDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingRare"/>
+        <tembangbali:MemilikiArti>Menggambarkan anak perempuan yang patuh kepada orang tuanya. Dimana seorang ibu berpesan kepada anak perempuannya yang cantik untuk menjaga rumah saat ibu berbelanja ke pasar</tembangbali:MemilikiArti>
+        <tembangbali:MemilikiLirik>Putri cening ayu 
+ngijeng cening jumah 
+meme luas malu 
+ke peken meblanja 
+apang ada darang nasi</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Putri Cening Ayu</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>putriceningayu</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RingPurwaTunjungePutih -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RingPurwaTunjungePutih">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Ngareka"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PitraYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Ring purwa tunjunge putih, 
+Hyang Iswara dewatania, 
+ring pepusuh pernahira, 
+alinggih sira kalihan. 
+Pantes ta kemabnge petak, ring tembe lamun dumadi. 
+Suka sugih tur rahayu, dana punia stiti bakti.
+
+Ring gneyan tunjunge dadu, 
+Maheswara dewatania, 
+ring peparu pernahira, alinggih sira kalihan. 
+Pantes ta kembange dadu, ring tembe lamun dumadi. 
+Widagda sira ring niti subakti sireng buwana.
+
+Ring daksina tunjunge mirah, 
+Sang Hyang Brahma dewatania, 
+ring ati prenahira, alinggih sira kalihan. 
+Pantes ta kembange mirah, ring tembe lamun dumadi, 
+sampurna tur dirga yusa, pradnyan maring tatwa aji.
+
+Ring Neriti tunjunge jingga, 
+Sang Hyang Rudra dewatania, 
+ring usus prenahira, alinggih sira kalihan.
+Pantes ta kembange jingga, ring tembe lamun dumadi. 
+Dharma sira tur susila, jana nuraga ring bumi.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>RingPurwaTunjungePutih</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>ringpurwatunjungeputih</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RingWetanHanaTelaga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RingWetanHanaTelaga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Nganyut"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PitraYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Ring wetan hana telaga. Rikata hulun adyusa.
+Asalin raja bhusana. Anglebur awak tan porat.
+Hilanganing dasa mala. Sebel kandel ring sarira.
+Sakwehing malapataka. kalebura ring tanane.
+
+Ring kidul hana talaga. Rikata hulun adyusa.
+Asalin raja bhusana. Anglebur awak tan porat.
+Hilanganing dasa mala. Sebel kandel ring sanra.
+Sakwehing malapetaka. kalebura ring tanane.
+
+Ring kulon hana talaga. Rikata hulun adyusa.
+Asalin raja bhusana. Anglebur awak tan porat.
+Hilanganing dasa mala. Sebel kandel ring sanra.
+Sakwehing malapetaka. kalebura ring tanane.
+
+Ring lor hana talaga. Rikata hulun adyusa.
+Asalin raja bhusana. Anglebur awak tan porat.
+Hilanganing dasa mala. Sebel kandel ring sanra.
+Sakwehing malapetaka. kalebura ring tanane.
+
+Ring madya hana talaga. Rikata hulun adyusa.
+Asalin raja bhusana. Anglebur awak tan porat.
+Hilanganing dasa mala. Sebel kandel ring sanra.
+Sakwehing malapetaka. kalebura ring tanane.
+
+Sampun ta sira abresih, anambut raja bhusana.
+Binurating sarwa sari. Mrebuk arum gandaning wang.
+Matur sira ring Hyang Guru. Sinung wara nugraha sira.
+Keasunganing mandi swara. Paripurna tur nyewana.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>RingWetanHanaTelaga</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RsiBojana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RsiBojana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RsiBojana"/>
+        <tembangbali:MemilikiNama>Rsi Bojana</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RsiYadnya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RsiYadnya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraYadnya"/>
+        <tembangbali:MerupakanBagianYadnya rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RsiYadnya"/>
+        <tembangbali:MemilikiNama>Rsi Yadnya</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SakingTuhuManahGuru -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SakingTuhuManahGuru">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinanti"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Hiburan"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinanti"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Slendro"/>
+        <tembangbali:MemilikiArti>Sang Guru dengan penuh perhatian dan kesungguhan
+Memberikan petuah pada muridnya
+Pengetahuan itu bagaikan senjata
+Yang dapat dipergunakan sehari-hari
+Terutama untuk menyambung hidup,
+mencari penghidupan Selagi kamu masih hidup</tembangbali:MemilikiArti>
+        <tembangbali:MemilikiLirik>saking tuhu manah guru
+mituturin cening jani
+kaweruh luir senjata
+ne dadi prabotang sai
+kaanggen ngaruruh mertha
+sahanuning ceninge urip</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Saking Tuhu Manah Guru</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>sakingtuhumanahguru</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SangAtapaSakti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SangAtapaSakti">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NgesengSawa"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PitraYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Sang atapa sakti bhakti, astiti purwa sangkara.
+Yan mati maurip malih. Wisesa sireng bhuwana.
+Putih timur abang wetan. Rahina tatas apadang.
+Titisning jaya kamantyan. Mapageh ta samadinira.
+
+Nghulun angadeg ring natar. Kamajaya cintanya.
+Sang atunggu parawean. Mawungu pakarab-karab.
+Ilangani dasa-mala, amrtang gangga asuci.
+Pamunggal rwaning wandira. Pinaka len prehanira.
+
+Yan sampun sira araup. Isinikang kundi manik.
+Anut marga kita mulih. Yan sira teka ring umah.
+Tutugaken samadinta. Sapangruwat sariranta.
+Isenikang pangasepan. Kunda kumutug samiddanya.
+
+Wewangen dadi tembaga. Rurube kang dadi emas.
+Arenge kang dadi wesi, Awune kang dadi selaka.
+Kukuse kang dadi mega. Yeh iku manadi ujan.
+Tumiba ring Mrecapada. Yeh iku dadi amretta.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Sang Atapa Sakti</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SangHyangDedari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SangHyangDedari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Gegendingan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingSanghyang"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraKeagamaan"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DewaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarRare"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Slendro"/>
+        <tembangbali:MerupakanBagianDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#GendingSanghyang"/>
+        <tembangbali:MemilikiArti>Sebagai tari upacara untuk memohon keselamatan bagi masyarakat setempat.</tembangbali:MemilikiArti>
+        <tembangbali:MemilikiLirik>Ngukup
+Asap menyan majagau
+Cendana pengundang Dewa,
+Dewa arsa ida turun mengasirsir,
+Mengesir – sir sereg – seregin, (diulang sampai nadi),
+
+Nadi/ trance
+Tut katidong bangun,
+Bangunke mepayas,
+Mewastra di dane kembang bukit,
+Masinjang pitolo halus,
+Meanteng dane guringsing,
+Guringsing wayang,
+Pantes iring lelancar,
+Pemargine dilenjo-lenjo,
+Salontar dane salonter,
+Mairib mepasang guna,
+Guna adi guna napi,
+Pasangang dane,
+Guna adi guna puled,
+Mapulalat mapulilit,
+Hakena didane rujak gadung,
+Ditu suryake makerug.
+
+Sekar sandat,
+Sekar sandat,
+Dikembange tanpa guna,
+Dilayune dikasur mayang,
+Miyik nyangluh,
+Nene kuning,
+Malimpungan,
+Pantes pejang di pamreman,
+Pamreman dedari alit,
+Bale manik,
+Dimabusana,
+Endin murub,
+Ngaredep masunaran bintang,
+Bintang siang,
+ Bintang jaruma,
+Panedenge teja bulan, nene purnama.
+
+Adun dewa suci,
+Mengawe lengleng tuningal,
+Ida lunga makelanguan,
+Mangungsi ketaman sari,
+Kayun ida mengalap-ngalap sekar,
+Sekarang ida masolah,
+Masolah kadi ring ambar,
+Manyuregseg ida ida nyalempoh,
+Matanjek majulu angsul,
+Julu angsul ring iderin,
+Lalakon sesapi mimbang,
+Mangimbang tepin telaga
+Ande titian kupu-kupu metarung,
+Metarung metangkis gilik.
+
+Batu gaplong,
+Dedari turun menyoged,
+Menyoged eleg-elegang,
+Eleg-eleg kacegantun,
+Ne ring wangsul,
+Wangsul sari I bagus meduwe taman,
+Taman sari tetanduran,
+Sarwa miyih,
+Madori-dori putih,
+Anggen di oncer rejang,
+Rejang legong,
+Matur bakti kesuralaya.
+
+Tut katidong bangun,
+Disaba lemah,
+Padingoang munyin sulinge di jaba,
+Kenkenke ento,
+Dimunyin suling,
+Ranak rinik gagupekanne sekar gadung,
+Mupu-mupu  sekar ke taman sari,
+Sekar sandat,
+Menuh gambir,
+Aturina ayu dedari,
+Dari alit mangujang ngoyong ditu,
+Margi mulih enjitang tiang roko,
+Rook napi rokon beline,
+Rook bagan mepilpil metali benang,
+Sig napine rokon beline,
+Jumah meten  di dingdinge dulun sanglat,
+Samup usan iayu mengenjit roko,
+Dong cacarin nemagending-gending sanghyang,
+Sane nenten ipun magending,
+Dong sampunang iayu ngicen lanjaran.
+
+Ngelod kanginan,
+Tepuk meru,
+Tumpang siongolas,
+Jalan dedari ngerawos matur canan,
+Canan napi,
+Canan dane,
+Canan gantal buah muda,
+Canggah urip mikuh cantel,
+Bibi ngemban, bibi nginte,
+Lakar gene bibi ngemban bibi nginte,
+Nyelang gunting,
+Lakar anggon nggunting capung,
+Capung emas,
+Capung selaka lakar pelalian widiadari,
+Buka kenken warnan dane,
+Buka bulan nene putih kuning,
+Ne wawu panlowang apisan.
+
+Mecantel
+Mecantel dewa mecantel,
+Apang becik dewa mecantel,
+Mantuk
+Mantuk-mantuk ayu dedari mantuk,
+Mantuke kedalam puri,
+Keregang langsene kening,
+Pakebirbir ayu dedari mantuk (3 kali),
+Sekar jepun anggitan madori putih,
+Pucuk petak teleng biru,
+Nunas tirta kesanggar agung,
+Tirta hening sibuh selem,
+Toya pemastu,
+Pemastu sakeng swargan,
+Ketisin ragane dewa,
+Wus meketis ngiring mantuk ke gunung indrakila,
+Lamun kari kurungan anyar,
+Waluya kadi manusa.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Sang Hyang Dedari</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit">
+        <tembangbali:AdalahJenisTembangDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiNama>Sekar Alit</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya">
+        <tembangbali:AdalahJenisTembangDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiNama>Sekar Madya</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarRare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarRare">
+        <tembangbali:AdalahJenisTembangDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarRare"/>
+        <tembangbali:MemilikiNama>Sekar Rare</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SinggihRatu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SinggihRatu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMijil"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraKeagamaan"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DewaYadnya"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhMijil"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Singgih ratu 
+Sang Hyang Maha Suci
+Bakti titiyang nyokor
+Ring bukpada singgih Betarane
+
+Mogi ratu ledang mangwecanin
+Kawulane sami mogi molih
+Manguh ayu
+
+Titiang nuhur
+Tirtane utami
+Pangeleburan kaon
+Kancan malance ring jagate
+
+Ye kesepuh
+Keparisuda bersih
+Apan katibanin
+Antuk tirta suci nulus</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Singgih Ratu</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>singgihratu</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Slendro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Slendro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Laras"/>
+        <tembangbali:MerupakanLarasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Slendro"/>
+        <tembangbali:MemilikiNama>Slendro</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TigaBulanan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TigaBulanan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TigaBulanan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TityangJugul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TityangJugul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPucung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Bermain"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DewaYadnya"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhPucung"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>tityang jugul
+pangkah ngaturang kidung
+wantah makacihna
+indik titiang jakti bhakti
+sekar katur
+ring pucuking cakup karwa</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Tityang Jugul</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TurunTirta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#TurunTirta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#NunasTirta"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DewaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Turun tirtha saking luhur. 
+nenyiratang pemangkune.
+Mekalangan muncrat mumbul. 
+Mapan tirtha mrtajati.
+Paican Bhatara sami, panglukatan dasa-mala.
+Sami pada lebur. 
+Malane ring gumi.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Turun Tirta</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>turuntirta</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UntengRsi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UntengRsi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinanti"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MaDwiJati"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RsiYadnya"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhGinanti"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Bagian 1:
+Unteng resi yadnya katur
+Suksma bhakti ring sang resi
+Ida ngicen kaweruhan
+Medana punia jati
+Swadarma umat ring jagat
+Mantuk maring sang sulinggih
+
+Bagian 2:
+Madwijati ne kawuwus
+Utawi madiksa yukti
+Munggah saking walaka
+Dados ida sang sulinggih
+Ne patut guru nabenya
+Gelar malih kaicenin
+
+Bagian 3:
+Swadarma ida sang putus
+Adi guru loka niti
+Mamuja majeng ring purwa
+Siwa raditya kaesti
+Nunas rahayu ring ida
+Mangda landuh jagat sami</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Unteng Rsi</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraKeagamaan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraKeagamaan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Aktivitas"/>
+        <tembangbali:MerupakanAktivitasDari rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraKeagamaan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraSampunPuput -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#UpacaraSampunPuput">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MatabuhEnak"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DewaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Upacara sampun puput, 
+kastawayang de mangkine, 
+para sutri milu tumut, 
+juru kidung manyandingin, 
+tabuh gonge ramya becik, 
+pada mangaturang ayah, pinaka pamuput, 
+tabuk enale cumawis.
+
+Agung alit lanang wadu, 
+ngilenang eteh-etehe, 
+pinih dumun kukus arum, 
+toya anyar canang sari, 
+tuak arak berem malih, 
+miwah asaban cendana, 
+kasolahang sampun, d
+ulur wargasari.
+
+Matabuh ring surya dumun, 
+lantur ring pajenengane, 
+pangayatane ngalantur, 
+ngararis ka saji linggih, 
+maring datengane malih, 
+ka jaba ring apit lawang, 
+bale gong pamuput, 
+dudonang sutrepti.
+
+Gonge ramya manabuh, 
+nyarengin sesolahane, 
+malih alon malih ngrudug, 
+ne masolah kenyung manis, 
+kidunge tuara sepi, sami pada egar ngayah,
+tan marasa lesu, 
+reh bakti ring Widhi.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Upacara Sampun Puput</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#WangunSampunPutus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#WangunSampunPutus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Malaspas"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DewaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Wangun sampun putus
+Mantuk linggih bhatarane
+Tungkub gedong meru-meru
+Miwah pasimpangan
+Sami sad kahyangan minakadi
+Rawuhing linggih
+Pramenak pada masana luhur
+Sapta pataka luwih
+
+Sang hyang wiswakarma wiku
+Maka dewan undagine
+Guruning sarwa winangun
+Utama salwiring pakardi
+Luwih suci desa asih
+Wanaspati sama ngawita
+Tan hana mangiwur
+Bhuta kala wedi
+
+Upakarane sakuwub
+Agung alit amadyane
+Manut sasidaning laku
+Turlila lagaweng hati
+Pamlaspase mamargi
+Salwiring ring wawangunan
+Palinggih hyang ingsun
+Kang sinanggah suci
+
+Gagulak panjeg siku
+Lan sepat siku-sikune
+Sakancan prabot sadulur
+Lalabhane pada ngwiji
+Sarwa gumatat gumitit
+Iwak sekul sami bina
+Sami pada manut
+Pratekaning saji</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Wangun Sampun Putus</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#WargaSari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#WargaSari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MenghaturkanSajen"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#DewaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Ida Ratu saking luhur. Kawula nunas lugrane.
+Mangda sampun titiang tanwruh. Mengayat Bhatara mangkin.
+Titiang ngaturang pajati. Canang suci lan daksina.
+Sami sampun puput. Pratingkahing saji.
+
+Asep menyan majagau. Cendana nuhur dewane,
+Mangda Ida gelis rawuh. Mijil saking luhuring langit.
+Sampun madabdaban sami. Maring giri meru reko.
+Ancangan sadulur, sami pada ngiring.
+
+Bhatarane saking luhur. Nggagana diambarane.
+Panganggene abra murub. Parekan sami mangiring.
+Widyadara-widyadari, pada madudon-dudonan,
+Prabhawa kumetug. Angliwer ring langit.</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Warga Sari</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>wargasari</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#WiramaWiratTebusol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#WiramaWiratTebusol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pawiwahan"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#ManusaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>1.Kadi harsaning taru lata ngelih angayam-ayam
+labuh kapat
+Sukaning sakendrani dateng nrepa suta kadi
+tambaying hudan
+Nguniweh tikang sura wadhu dumadak asemi
+kungnya denira
+Ketering pater padani wrtanira lagi rinengwa
+rengwaken
+
+2.Risedengniran tama sinanggraha ta sira
+tekapning apsari
+Amapag saking pangunganan maka pasaji
+manis nikang mata
+Winuwusnya ring cermin ikang liring aluru
+binagkitan guyu
+Asegeh manahnya tamuyan wenang asiliha
+ring smaragama</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Wirama Wirat Tebusol</tembangbali:MemilikiNama>
+        <tembangbali:MemilikiSuara>wiramawirattebusol</tembangbali:MemilikiSuara>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Wirama_Aswalalita -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Wirama_Aswalalita">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RsiBojana"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RsiYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Bagian 1:
+Sira sang aweh sudana risirang dana dipa pasungnya nisphala tika
+Ikang awuwus wareg sungana bojana tisaya nisphalanya marika
+Kadi hudaning samudra papadanya nisphala hilang banyunya mapahit
+Ikang upakra katrini taman prayoga pada nisphala ywa tulada
+
+Bagian 2:
+Tan hana sudharma manglewihani kasatyan usiran tekap para jana
+Tan hana kawah manglewihani rikangmrta tilarakenekang alinyok
+Hyanganala suryacandrayama bayu satya sira saksyaning tri bhuwana
+Maran inamaskara hyang isanekanang bhuwana matya satya wacana</tembangbali:MemilikiLirik>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Wirawa_WiratRayaKusuma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Wirawa_WiratRayaKusuma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:AdalahTermasukKidung rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Kidung"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Mepandes"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#ManusaYadnya"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarMadya"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>1.Rupa dyah pangawaknya
+Mambet angelih helih
+Umulat alon liring nika
+Haywang bhusana tan padon
+Kete-keteg juga pahayun
+Umunggu ring mata
+Warna syama kurang-kurang
+Guyu mahata gisi-gisi
+Pinon amatyani
+Sengning lati jugan walang
+Walang ares umulat
+Awedi lunghiding waja
+
+2.Warna kryan kadi mas
+Tatur wahu sinang ling
+Agalak amanis tikung mata
+Ambeknyaku lewihnya ta
+Pwa kalara kutak alara
+Panarkaning mulat
+Yekan rajasa yan hana
+Maca tulis manyaritaken
+Arengwa ta pwa ya
+Ndan ring ratri jugan
+Kinon tekapi kungnya
+Majarumana tambwanging wulan</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Wirama Wirat Raya Kusuma</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#YeningIdaSangBrahmana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#YeningIdaSangBrahmana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSinom"/>
+        <tembangbali:MemilikiAktivitas rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#MaDwiJati"/>
+        <tembangbali:MemilikiFungsi rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#RsiYadnya"/>
+        <tembangbali:MemilikiJenisPupuh rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#PupuhSinom"/>
+        <tembangbali:MemilikiJenisTembang rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#SekarAlit"/>
+        <tembangbali:MemilikiLaras rdf:resource="http://www.semanticweb.org/diantiparasmitha/ontologies/2022/1/tembangbali#Pelog"/>
+        <tembangbali:MemilikiLirik>Bagian 1:
+Yening ida sang brahmana
+Piageme kasungkemin
+Yogya malajah mahoma
+Patut mapeweweh malih
+Paica aturan luwih
+Seneng masucian laut
+Ngajah lan dados nayaka
+Sang mahoma lan semadi
+Yogya kayun
+Nampen paica haturan
+
+Bagian 2:
+Bratan ida sang brahmana
+Roras katahnya sujati
+Bacakan ipun punika
+Dharma satya tapa hrih
+Wimat saritwa drthi
+Titiksa lan dana milu
+Dama miwah anasura
+Ksama taler menyarengin
+Jangkep sampun
+Babratan sang brahmana</tembangbali:MemilikiLirik>
+        <tembangbali:MemilikiNama>Yening Ida Sang Brahmana</tembangbali:MemilikiNama>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
