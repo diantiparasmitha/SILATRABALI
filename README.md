@@ -1,1 +1,1 @@
-composer require solid-data-workers/laravel-sparql
+Sistem Manajemen Informasi Lagu Tradisional Bali
